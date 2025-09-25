@@ -100,13 +100,23 @@ entrada_160000       |  160,000 | MergeSort: 0.335337  | QuickSort: 0.207422 | S
 Vetores ordenados salvos em: vetores_ordenados/
 ```
 
-### Validação dos Vetores Ordenados
+### Vetores Ordenados Retornados:
 
-| Dataset | Tamanho  | MergeSort | QuickSort  | Verificação |
-|---------|----------|-----------|------------|-------------|
-| entrada_20000.txt  | 20.000    | ✓ Ordenado | ✓ Ordenado | ✓ Idênticos |
-| entrada_40000.txt  | 40.000    | ✓ Ordenado | ✓ Ordenado | ✓ Idênticos |
-| entrada_160000.txt | 160.000   | ✓ Ordenado | ✓ Ordenado | ✓ Idênticos |
+```
+================================================================================
+Dataset: dados_entrada/entrada_20000
+  MergeSort: [39, 67, 88, 168, 219, 250, 322, 338, 391, 473, ...]
+  QuickSort: [39, 67, 88, 168, 219, 250, 322, 338, 391, 473, ...]
+
+Dataset: dados_entrada/entrada_40000
+  MergeSort: [99, 115, 121, 121, 126, 146, 206, 249, 258, 325, ...]
+  QuickSort: [99, 115, 121, 121, 126, 146, 206, 249, 258, 325, ...]
+
+Dataset: dados_entrada/entrada_160000
+  MergeSort: [2, 4, 5, 6, 14, 18, 26, 35, 48, 53, ...]
+  QuickSort: [2, 4, 5, 6, 14, 18, 26, 35, 48, 53, ...]
+```
+
 
 ## Observações Importantes
 
